@@ -17,5 +17,5 @@ public class BliblispringdemoApplication {
 
     BitLy bitLy = applicationContext.getBean(BitLy.class);
     bitLy.getUrlShortenerService().doShortenerUrl();
-	}
+	} 
 }
